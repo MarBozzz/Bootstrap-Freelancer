@@ -5,14 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css" integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg==" crossorigin="anonymous">
   
-  
-
   <style>
-
     [class^="container"], [class^="col"], .sc-container{
       background-color: rgba(185, 231, 232,.4);
       border: 1px solid black;
@@ -21,22 +16,121 @@
     }
 
   </style>
-
+  <link rel="stylesheet" href="css/style.css">
 
   <title>Bootstrap Freelancer</title>
 </head>
 <body>
 
+
   <header>
-    H
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4">1</div>
+        <div class="col-4 d-none d-sm-block offset-4">2</div>
+        <div class="col-2 d-block d-sm-none offset-6">H</div>
+      </div>
+    </div>
   </header>
 
+
+  <div class="jumbotron">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-12 d-flex display-column align-center">
+          <h1>Start Bootstrap</h1>
+          <div class="photo">
+          </div>
+          <h4>Graphic artist - Web designer - Illustrator</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <main>
-    M
+
+    <section id="portfolio">
+      <div class="container text-center">
+        <h2>Portfolio</h2>
+        <div class="row">
+          <div class="col-lg-6 col-xxl-4">
+            <div class="photo">
+            </div>
+          </div>
+          <div class="col-lg-6 col-xxl-4">
+            <div class="photo">
+            </div>
+          </div>
+          <div class="col-lg-6 col-xxl-4">
+            <div class="photo">
+            </div>
+          </div>
+          <div class="col-lg-6 col-xxl-4">
+            <div class="photo">
+            </div>
+          </div>
+          <div class="col-lg-6 col-xxl-4">
+            <div class="photo">
+            </div>
+          </div>
+          <div class="col-lg-6 col-xxl-4">
+            <div class="photo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container text-center ms-custom-container">
+        <h2>About</h2>
+        <div class="row justify-center">
+          <div class="col-lg-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis in unde porro ut explicabo odio, voluptatibus dolore eos ad nam itaque, repudiandae distinctio facere magni minus maiores harum culpa laborum illo!</p>
+          </div>
+          <div class="col-lg-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis in unde porro ut explicabo odio, voluptatibus dolore eos ad nam itaque, repudiandae distinctio facere magni minus maiores harum culpa laborum illo!</p>
+          </div>
+        </div>
+        <div class="btn">Download</div>
+      </div>
+    </section>
+
+    <section id="contact-me">
+      <div class="container text-center ms-custom-container">
+        <h2>Contact me</h2>
+        <div class="row">
+          <ul class="col text-start">
+            <li>Name</li>
+            <li>Email Address</li>
+            <li>Phone Number</li>
+            <li>Message</li>
+          </ul>
+        </div>
+        <div class="btn">Send</div>
+      </div>
+    </section>
+
   </main>
+
   
   <footer>
-    F
+
+    <div class="footer-top">
+      <div class="container-fluid text-center">
+        <div class="row justify-content-lg-around">
+          <div class="col-lg-4">TEXT</div>
+          <div class="col-lg-4">Around the web</div>
+          <div class="col-lg-4">About freelancer</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <h5>Copyright</h5>
+    </div>
+  
   </footer>
 
 </body>

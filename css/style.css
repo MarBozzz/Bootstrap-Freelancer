@@ -1,0 +1,35 @@
+.photo {
+  width: 200px;
+  height: 250px;
+  background-color: blueviolet;
+  border: 1px solid black;
+}
+ 
+.display-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+#portfolio .photo {
+  width: 100%;
+  object-fit: cover;
+}
+
+.ms-custom-container {
+  width: 60%;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-bottom {
+  text-align: center;
+}
