@@ -1,10 +1,11 @@
-.photo {
-  width: 200px;
-  height: 250px;
-  background-color: blueviolet;
-  border: 1px solid black;
+body {
+  color: white;
 }
- 
+
+img {
+  max-width: 100%;
+}
+
 .display-column {
   flex-direction: column;
 }
@@ -17,17 +18,96 @@
   align-items: center;
 }
 
-#portfolio .photo {
+header {
+  height: 90px;
+}
+
+header, .footer-bottom {
+  background-color: #2C3E50;
+}
+
+.footer-top {
+  background-color:#3A546D;
+}
+
+.jumbotron {
+  height: 490px;
+}
+
+.jumbotron, #about {
+  background-color: #1ABC9C;
+}
+
+/*
+.jumbotron .photo img {
+  height: 250px;
+}*/
+
+
+.line {
+  width: 10%;
+  height: 1px;
+  border: 1px solid white;
+}
+
+.star {
+  font-size: 2rem;
+}
+
+#portfolio, #contact-me {
+  color: #333333;
+}
+
+#portfolio .star, #contact-me .star {
+  color: #2C3E50;
+}
+
+#portfolio .line, #contact-me .line {
+  border-color: #2C3E50;
+}
+
+.mb-form .form-control{
+  border-radius: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.btn.mb-btn:first-child, :not(.btn.mb-btn-check) + .btn.mb-btn {
+  background-color: #1ABC9C;
+}
+
+#contact-me .form .btn.mb-btn {
+  background-color: #1ABC9C;
+}
+
+.footer-bottom {
+  height: 110px;
+}
+
+.photo {
+  object-fit: cover;
+  width: 200px;
+  height: 250px;
+}
+
+
+#portfolio .row .col .card {
+  width: 100%;
+}
+
+#portfolio .card img {
   width: 100%;
   object-fit: cover;
 }
 
-.ms-custom-container {
-  width: 60%;
+.btn.mb-btn {
+  border-color: white;
+  color: white;
 }
 
-ul {
-  list-style: none;
+.ms-custom-container {
+  width: 60%;
 }
 
 .footer-bottom {
